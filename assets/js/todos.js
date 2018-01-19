@@ -25,6 +25,7 @@ $('input[type="text"]').keypress(function (){
       <li> <span>X</span> ${todoText} </li>
     `);
     
+    //clear text
     $(this).val('');
   }
 });
