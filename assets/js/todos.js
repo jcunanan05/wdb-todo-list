@@ -22,7 +22,7 @@ $('input[type="text"]').keypress(function (){
     var todoText = $(this).val();
     //add to ul
     $('ul').append(`
-      <li> <span>X</span> ${todoText} </li>
+      <li> <span><i class="fa fa-trash" aria-hidden="true"></i></span> ${todoText} </li>
     `);
     
     //clear text
